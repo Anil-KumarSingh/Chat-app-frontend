@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL of the backend API
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://chat-app-backend-3-ou4r.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_URL,

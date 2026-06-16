@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 
 // Base URL of the backend Socket.IO server
-const SOCKET_URL = 'http://localhost:5000';
+const SOCKET_URL = "https://chat-app-backend-3-ou4r.onrender.com";
 
 let socket = null;
 
